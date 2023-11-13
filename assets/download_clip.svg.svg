@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>resume download-svg</title>
+	<defs>
+		<image width="360" height="360" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPg0KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGQ9Ik0xOS44Mjc4IDExLjI0MzdMMTIuNzA3NCAxOC4zNjQxQzEwLjc1NDggMjAuMzE2NyA3LjU4ODk2IDIwLjMxNjcgNS42MzYzNCAxOC4zNjQxQzMuNjgzNzIgMTYuNDExNCAzLjY4MzcyIDEzLjI0NTYgNS42MzYzNCAxMS4yOTNMMTIuNDcxNyA0LjQ1NzYzQzEzLjc3MzUgMy4xNTU4OSAxNS44ODQgMy4xNTU4OSAxNy4xODU4IDQuNDU3NjNDMTguNDg3NSA1Ljc1OTM4IDE4LjQ4NzUgNy44Njk5MyAxNy4xODU4IDkuMTcxNjhMMTAuMzYxNCAxNS45OTYxQzkuNzEwNDggMTYuNjQ3IDguNjU1MiAxNi42NDcgOC4wMDQzMyAxNS45OTYxQzcuMzUzNDUgMTUuMzQ1MiA3LjM1MzQ1IDE0LjI4OTkgOC4wMDQzMyAxMy42MzkxTDE0LjIyNTggNy40MTc2MiIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPC9zdmc+"/>
+	</defs>
+	<style>
+		.s0 { fill: #000000 } 
+	</style>
+	<use id="paperclip-svgrepo-com" href="#img1" transform="matrix(.986,0,0,.986,78,84)"/>
+	<g id="Layer">
+		<path id="Layer" fill-rule="evenodd" class="s0" d="m512 256c0 141.4-114.6 256-256 256-141.4 0-256-114.6-256-256 0-141.4 114.6-256 256-256 141.4 0 256 114.6 256 256zm-47.8 87.9c11.7-27.9 17.7-57.5 17.7-88 0-30.6-5.9-60.2-17.7-88-11.3-26.9-27.6-51-48.4-71.8-20.7-20.7-44.9-37-71.8-48.4-27.9-11.7-57.5-17.7-88-17.7-30.5 0-60.1 6-88 17.7-26.9 11.4-51 27.7-71.9 48.5-20.7 20.7-37 44.9-48.4 71.8-11.7 27.9-17.7 57.5-17.7 88 0 30.5 6 60.1 17.8 87.9 11.3 26.9 27.6 51 48.4 71.8 20.7 20.7 44.9 37 71.8 48.4 27.9 11.7 57.5 17.7 88 17.7 30.6 0 60.2-5.9 88-17.7 26.9-11.3 51-27.6 71.8-48.4 20.7-20.7 37-44.9 48.4-71.8z"/>
+	</g>
+</svg>

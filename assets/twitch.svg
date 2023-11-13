@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>resume download-svg</title>
+	<defs>
+		<image width="320" height="320" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIEdlbmVyYXRvcjogU1ZHIFJlcG8gTWl4ZXIgVG9vbHMgLS0+Cjxzdmcgd2lkdGg9IjgwMHB4IiBoZWlnaHQ9IjgwMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cg08cmVjdCB4PSIwIiBmaWxsPSJub25lIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz4KDTxnPgoNPHN0eWxlPi5zdDB7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7fTwvc3R5bGU+Cg08cGF0aCBkPSJNMi43IDJMMiA0LjZ2MTEuOGgzLjJWMThIN2wxLjgtMS42aDIuOWw1LjctNS4yVjJIMi43ek0xNiAxMC41bC0yLjUgMi4zaC00bC0yLjIgMnYtMkg0LjJWMy4zSDE2djcuMnptLTIuNS00LjZoLTEuNHYzLjloMS40VjUuOXptLTQgMEg4LjF2My45aDEuNFY1Ljl6Ii8+Cg08L2c+Cg08L3N2Zz4="/>
+	</defs>
+	<style>
+		.s0 { fill: #000000 } 
+	</style>
+	<use id="twitch-svgrepo-com" href="#img1" transform="matrix(.994,0,0,.994,103,108)"/>
+	<g id="Layer">
+		<path id="Layer" fill-rule="evenodd" class="s0" d="m512 256c0 141.4-114.6 256-256 256-141.4 0-256-114.6-256-256 0-141.4 114.6-256 256-256 141.4 0 256 114.6 256 256zm-47.8 87.9c11.7-27.9 17.7-57.5 17.7-88 0-30.6-5.9-60.2-17.7-88-11.3-26.9-27.6-51-48.4-71.8-20.7-20.7-44.9-37-71.8-48.4-27.9-11.7-57.5-17.7-88-17.7-30.5 0-60.1 6-88 17.7-26.9 11.4-51 27.7-71.9 48.5-20.7 20.7-37 44.9-48.4 71.8-11.7 27.9-17.7 57.5-17.7 88 0 30.5 6 60.1 17.8 87.9 11.3 26.9 27.6 51 48.4 71.8 20.7 20.7 44.9 37 71.8 48.4 27.9 11.7 57.5 17.7 88 17.7 30.6 0 60.2-5.9 88-17.7 26.9-11.3 51-27.6 71.8-48.4 20.7-20.7 37-44.9 48.4-71.8z"/>
+	</g>
+</svg>

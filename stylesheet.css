@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    transition: all ease-in-out 0.2s;
+    background-image: url('assets/background3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+}
+
+.darkmodetoggle {
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #555;
+  }
+  
+  .darkmodetoggle:checked {
+    color: white;
+    background-image: url('assets/background3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  }
+  
+  .dark {
+    background-image: url('assets/background4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+  }
+
+  .lightbtn .explore-btn{
+    box-shadow: 2px 2px 3px #00000080;
+    background-color: black;
+    color: white;
+  }
+
+
+  a{
+    color: white;
+    transition: 0.2s;
+}
+
+  .lighttext a{
+    color: black;
+    transition: 0.2s;
+  }
+
+a:visited{
+    color: white;
+    transition: 0.2s;
+}
+
+  .lighttext a:visited{
+    color: black;
+    transition: 0.2s;
+  }
+
+  /* .footerlinkedin{
+    background-image: url('assets/linkedin-svgrepo-com.svg');
+    width: 30px;
+    height: 30px;
+  } */
+
+  /* .footergithub{
+    background-image: url('assets/linkedin-svgrepo-com.svg');
+    width: 30px;
+    height: 30px;
+  } */
+
+  /* .darkimg .footerlinkedin {
+    background-image: url('assets/headshot.jpg');
+    width: 30px;
+    height: 30px;
+  } */
+/* 
+  .darkimg .footergithub {
+    background-image: url('assets/ANM.png');
+    width: 30px;
+    height: 30px;
+  } */
+
+
+/* /////// */
+
+
+
+hr {
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd80;
+}
+
+.index-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+}
+
+a:visited{
+    color: white;
+}
+
+.landing-cntr {
+    /* position: fixed;
+    top: 0; */
+    width: fit-content;
+    height: fit-content;
+    margin: 30px auto;
+    text-align: center;
+    justify-content: left;
+    /* background-color: #ffffff80; */
+    border-radius: 20px;
+    /* transition: 0.2s !important; */
+    display: grid;
+    justify-items: center;
+    line-height: 35px;
+}
+
+.landing-cntr img {
+    width: 15rem;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.explore-btn {
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 3px black;
+    transition: 0.2s;
+}
+
+.explore-btn:hover{
+    transform:scale(1.1);
+    transition: 0.2s;
+
+}
+
+.navbar {
+    background-color: #00000080;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar img {
+    height: 50px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.footer {
+    margin-top: 40px auto;
+    text-align: center;
+    width: 100%;
+}
+
+.footer img {
+    width: 30px;
+    margin: 0px 20px;
+}
+
+
+
+.intro-cntr {
+    width: fit-content;
+    max-width: 290px;
+    height: fit-content;
+    margin: 0px auto;
+    text-align: center;
+    justify-content: left;
+    background-color: #00000080;
+    border-radius: 20px;
+    /* transition: 0.2s !important; */
+    display: block;
+    position: sticky;
+    top: 85px;
+    justify-items: center;
+    margin-left: 30px;
+    padding: 20px;
+    /* left: 20; */
+}
+
+.index-left {
+    margin: 0;
+}
+
+.index-right {
+    margin: 20px;
+    width: 60%;
+    margin-right: 50px;
+}
+
+.intro-cntr img {
+    width: 115px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.intro-cntr h4 {
+    margin: 15px;
+    font-weight: 500;
+}
+
+.intro-cntr h1{
+    font-size: 24px;
+}
+
+.intro-cntr p{
+    font-weight: 200;
+}
+
+.about-cntr p {
+    margin-left: 30px;
+}
+
+.exp-card {
+    margin-left: 30px;
+}
+
+.exp-card-right {
+    width: 55%;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.exp-card p {
+    margin-top: 25px;
+}
+
+.exp-card li {
+    margin-bottom: 10px;
+}
+
+.icon-footer {
+    display: flex;
+    margin-top: 25px;
+    place-content: center;
+}
+
+.icon-footer img {
+    width: 30px;
+    margin: 5px;
+    margin-top: 0;
+    background-color: #ffffffbf;
+    box-shadow: 0px 0px 7px #ffffffbf;
+}
+
+.darkimgicon .icon-footer img{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.icon-footer img:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 7px #ffffff;
+    transition: 0.2s;
+}
+
+.intro-cntr a {
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.intro-cntr a:hover {
+    text-decoration: underline;
+    color: #000000;
+    transition: 0.2s;
+}
+
+
+.skill-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px !important;
+    margin: 10px;
+}
+
+.skill-card img {
+    margin-left: 30px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.skill-card h3 {
+    font-size: 12px;
+}
+
+.projects-cntr table {
+    margin-left: 30px;
+}
+
+.contact-cntr-f {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.contact-cntr h3 {
+    margin-left: 30px;
+}
+
+.contact-cntr p {
+    margin-left: 30px;
+}
+
+.skills-card-cntr {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exp-card h3,
+h4 {
+    margin-bottom: 7px;
+}
+
+.landing-cntr h4{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.landing-cntr p{
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.exp-card-cntr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.projects-cntr h2 {
+    margin-left: 30px;
+}
+
+.projects-cntr hr {
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.projects-card {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.projects-card-left {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.projects-card-left img {
+    width: 275px;
+    margin-bottom: 10px;
+    border-radius: 22px;
+}
+
+.projects-card-left a {
+    font-style: italic;
+}
+
+.projects-card-left a:hover {
+    text-decoration: underline;
+    color: #3c3a3a;
+}
+
+.projects-card-right hr {
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: 1px solid #dddddd80;
+}
+
+/* dark mode light mode toggle */
+
+label {
+    width: 75px;
+    height: 40px;
+    position: relative;
+    display: block;
+    background-image: url("assets/night.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 200px;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+label:after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    background: linear-gradient(180deg, #777, #3a3a3a);
+    border-radius: 180px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+label:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+input:checked+label {
+    background-image: url('assets/sunny.png');
+}
+
+input:checked+label:after {
+    left: 80px;
+    transform: translateX(-100%);
+    background: linear-gradient(180deg, #ffcc89, #d8860b);
+}
+
+label,
+label:after {
+    transition: 0.2s
+}
+
+.references-text p, a{
+    text-decoration: none;
+    font-style: italic;
+}
+
+.references-text:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {    
+.index-body{
+    display: block;
+}
+
+.intro-cntr{
+    margin-top: 20px;
+}
+
+.index-right{
+    margin: 20px auto;
+    width: 90%;
+    margin-right: 20px;
+}
+
+.projects-card{
+    display: block;
+}
+
+.projects-card-left{
+    margin-bottom: 20px;
+}
+
+.projects-cntr hr{
+    width: 87%;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.exp-card-right{
+    text-align: left;
+}
+
+.exp-card-cntr{
+    display: block;
+}
+
+.exp-card p{
+    margin-top: 0;
+}
+
+.contact-cntr-f{
+    display: block;
+}
+
+.contact-cntr-right{
+    margin-top: 20px;
+}
+
+}
