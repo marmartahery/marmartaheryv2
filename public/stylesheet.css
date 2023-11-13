@@ -479,6 +479,10 @@ label:after {
     display: block;
 }
 
+.landing-cntr img{
+    width: 11rem;
+}
+
 .intro-cntr{
     margin: 0 auto;
     margin-top: 20px;}
