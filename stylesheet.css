@@ -474,15 +474,19 @@ label:after {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 500px) and (min-width: 300px) {    
+@media only screen and (max-width: 650px) and (min-width: 300px) {    
 .index-body{
     display: block;
 }
 
 .intro-cntr{
-    margin-top: 20px;
-}
+    margin: 0 auto;
+    margin-top: 20px;}
 
+
+    .index-left{
+        margin-top: 20px;
+    }
 .index-right{
     margin: 20px auto;
     width: 90%;
