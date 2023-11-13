@@ -530,6 +530,7 @@ label:after {
 
 .projects-card-left a{
     font-size: 17px;
+    display: block;
 }
 
 
